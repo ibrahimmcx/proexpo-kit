@@ -17,7 +17,7 @@ const command = args[0];
 switch (command) {
   case "create":
     const projectName = args[1];
-    createProject(projectName);
+    await createProject(projectName);
     break;
 
   case "add":
