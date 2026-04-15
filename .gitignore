@@ -1,0 +1,9 @@
+node_modules/
+.npmrc
+*.tgz
+.DS_Store
+.env
+config.json
+.proexpo-kit/
+dist/
+build/

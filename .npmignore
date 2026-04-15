@@ -1,0 +1,7 @@
+# Exclude everything by default if using files whitelist in package.json
+# but we can be explicit here:
+node_modules/
+package-lock.json
+.agent/
+*.tgz
+.DS_Store
