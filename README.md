@@ -1,7 +1,7 @@
 # 🚀 Pro-Expo-Kit
 
-![npm](https://img.shields.io/npm/v/@ibrahimmcx/proexpo-kit)
-![downloads](https://img.shields.io/npm/dw/@ibrahimmcx/proexpo-kit)
+![npm](https://www.npmjs.com/package/@ibrahimmcx/proexpo-kit/v/2.0.0?activeTab=versions)
+![downloads](https://www.npmjs.com/package/@ibrahimmcx/proexpo-kit/v/2.0.0?activeTab=versions)
 ![license](https://img.shields.io/npm/l/@ibrahimmcx/proexpo-kit)
 
 > You don’t just create an Expo app.
