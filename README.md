@@ -1,55 +1,218 @@
-# Pro-Expo-Kit 🚀
+# 🚀 Pro-Expo-Kit
 
-> High-Performance, Reanimated-Free Expo SDK 54 Development Toolkit.
+![npm](https://img.shields.io/npm/v/@ibrahimmcx/proexpo-kit)
+![downloads](https://img.shields.io/npm/dw/@ibrahimmcx/proexpo-kit)
+![license](https://img.shields.io/npm/l/@ibrahimmcx/proexpo-kit)
 
-Pro-Expo-Kit is a specialized CLI tool designed for developers who want to maintain clean, fast, and structured Expo projects specifically for **SDK 54**.
+> You don’t just create an Expo app.
+> You build it the **right way**.
 
-## 📦 Installation
- 
- To use Pro-Expo-Kit globally in your projects:
- 
- ```bash
- npm install -g @ibrahimmcx/proexpo-kit
- ```
- 
- ## 🛠️ Main Features
- 
- -   🚀 **Smart Wizard**: Run `kit create <appName>` to launch an interactive setup for SaaS, AI, Social, or Shop apps.
- -   💥 **Feature Injection**: Run `kit add auth` to instantly inject a pre-styled Auth system (Context + UI).
- -   👨‍⚕️ **Auto Fix / Doctor**: Run `kit doctor` to automatically diagnose and fix SDK 54 & project structure issues.
- -   ⚡ **Performance Audit**: Run `kit optimize` to scan for large assets, unused deps, and performance anti-patterns.
- -   🧠 **AI Generation**: Run `kit ai "prompt"` to generate "Pro-Expo" compliant code using Gemini AI.
- -   🏥 **Advanced Health Report**: Run `kit check` to verify Node.js, SDK 54 compliance, and folder structure.
- -   🏷️ **Smart Archiving**: Run `kit archive "Title" "Content"` to save solutions and knowledge.
- -   📂 **Quick Project Scaffold**: Run `kit scaffold` to generate a professional folder structure.
- 
- ## 🚀 Usage Guide
- 
- ```bash
- # Set your Gemini AI API Key
- kit set-key YOUR_API_KEY
- 
- # Generate code using AI (Example)
- kit ai "a premium dark theme button with moti animation"
- 
- # Optimize & Audit your project
- kit optimize
- 
- # Create a new Pro-Expo project from scratch
- kit create my-dream-app
- 
- # Add a feature to an existing project
- kit add auth
- 
- # Automatically fix project & SDK issues
- kit doctor
- 
- # Check if your project is SDK 54 compliant
- kit check
- 
- # Scaffold standard folders
- kit scaffold
- ```
+---
+
+## 🎬 Demo
+
+![ProExpoKit Demo](./demo.gif)
+
+---
+
+## 🧠 What is Pro-Expo-Kit?
+
+**Pro-Expo-Kit** is an AI-powered CLI that transforms your Expo workflow into a **production-ready system in minutes**.
+
+Built specifically for **Expo SDK 54**, it eliminates setup complexity and enforces **real-world best practices** from the very first command.
+
+---
+
+## ⚡ Why Developers Love It
+
+* 🧠 Thinks like a senior developer
+* ⚙️ Creates production-ready architecture automatically
+* 💥 One command = full feature system
+* 👨‍⚕️ Detects & fixes problems instantly
+* 🤖 Generates real code using AI
+* 🚫 Fully **Reanimated-free architecture**
+
+---
+
+## 🚀 Installation
+
+```bash
+npm install -g @ibrahimmcx/proexpo-kit
+```
+
+---
+
+## ⚡ Quick Start
+
+```bash
+kit create myApp
+cd myApp
+npm start
+```
+
+---
+
+## 🏗️ Smart Project Wizard
+
+```bash
+kit create myApp
+```
+
+✨ Interactive setup options:
+
+* SaaS App
+* AI App
+* Social App
+* E-commerce App
+
+👉 Automatically sets up:
+
+* Clean folder structure
+* Navigation system
+* Scalable architecture
+* Required dependencies
+
+---
+
+## 💥 1 Command = Feature
+
+```bash
+kit add auth
+```
+
+Instantly injects:
+
+* 🔐 Login & Register screens
+* 🧠 AuthContext + custom hooks
+* 🔑 Token management system
+* 🔄 Navigation integration
+* 💾 AsyncStorage setup
+
+---
+
+## 👨‍⚕️ Doctor (Auto-Fix System)
+
+```bash
+kit doctor
+```
+
+✔️ Checks Expo SDK 54 compatibility
+✔️ Detects dependency issues
+✔️ Automatically fixes common errors
+✔️ Removes forbidden packages (Reanimated)
+
+---
+
+## ⚡ Performance Optimization
+
+```bash
+kit optimize
+```
+
+✔️ Detects large assets
+✔️ Finds unused dependencies
+✔️ Identifies performance bottlenecks
+
+---
+
+## 🧠 AI Code Generation
+
+```bash
+kit ai "modern login screen with dark theme"
+```
+
+✔️ Generates SDK 54 compliant code
+✔️ Follows Pro-Expo architecture
+✔️ Writes directly into your project
+
+---
+
+## 🏥 Advanced Health Check
+
+```bash
+kit check
+```
+
+✔️ Node.js compatibility
+✔️ SDK 54 validation
+✔️ Project structure verification
+
+---
+
+## 📂 Project Scaffolding
+
+```bash
+kit scaffold
+```
+
+✔️ Creates professional folder structure
+✔️ Applies best practices instantly
+
+---
+
+## 🏷️ Smart Knowledge Archive
+
+```bash
+kit archive "Fix Navigation Bug" "Solution details..."
+```
+
+✔️ Save reusable solutions
+✔️ Build your own developer knowledge base
+
+---
+
+## 🔐 API Key Setup
+
+```bash
+kit set-key YOUR_API_KEY
+```
+
+✔️ Secure AI integration
+✔️ Ready-to-use Gemini support
+
+---
+
+## 🧱 Built With Real-World Standards
+
+* Clean Architecture
+* Custom Hooks Pattern
+* API Layer Separation
+* Theme System
+* Scalable Folder Structure
+
+---
+
+## 🎯 Philosophy
+
+> Developers shouldn’t waste time fixing setup issues.
+> They should focus on building real products.
+
+---
+
+## 🔥 What Makes It Different?
+
+Most tools:
+
+* Create a project ❌
+* Install a few packages ❌
+
+**Pro-Expo-Kit:**
+
+* Builds a real architecture ✅
+* Injects full features ✅
+* Fixes itself automatically ✅
+* Writes code for you ✅
+
+---
+
+## 🚀 Vision
+
+Pro-Expo-Kit is not just a starter tool.
+
+It’s a **developer accelerator** designed to turn ideas into production-ready apps — faster than ever.
+
+---
 
 ## ⚖️ License
+
 MIT © ibrahimmcx
