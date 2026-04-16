@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import chalk from "chalk";
 import { archive, search, openKnowledge, reindex } from "../lib/knowledge.js";
 import { check } from "../lib/checker.js";
 import { scaffold } from "../lib/scaffold.js";
@@ -15,9 +16,19 @@ const args = process.argv.slice(2);
 const command = args[0];
 
 switch (command) {
+  case "init":
   case "create":
     const projectName = args[1];
     await createProject(projectName);
+    break;
+
+  case "firebase":
+    if (args[1] === "url") {
+      setConfig("firebase-url", args[2]);
+      console.log(chalk.green(`✔ Firebase URL set to: ${args[2]}`));
+    } else {
+      console.log(chalk.yellow("Usage: kit firebase url <url>"));
+    }
     break;
 
   case "add":
@@ -75,21 +86,19 @@ switch (command) {
 
   default:
     console.log(`
-Pro-Expo-Kit CLI (Node.js)
+${chalk.bold.cyan("🚀 PRO-EXPO-KIT CLI")}
+${chalk.gray("Developer accelerator for Expo SDK 54")}
 
-Usage:
-  kit create <name>            Create a new smart Expo project
-  kit add <feature>            Add a feature (e.g., auth, firebase, ui)
-  kit doctor                   Automatically fix project & SDK issues
-  kit optimize                 Audit project performance (assets, deps, code)
-  kit ai <prompt>              Generate code using Pro-Expo AI (Gemini)
-  kit set-key <key>            Set your Gemini API Key
-  kit archive "title" "content"   Archive a new knowledge item
-  kit check                   Run environment health report
-  kit search "query"              Search knowledge base index
-  kit open "query"                Open a döküman in default editor
-  kit scaffold                Create standard project structure
-  kit status                  Show kit memory and agent status
-  kit reindex                 Rebuild the knowledge index
+${chalk.bold("Usage:")}
+  ${chalk.cyan("kit init <name>")}            ${chalk.gray("Create a new premium Expo project")}
+  ${chalk.cyan("kit add <feature>")}           ${chalk.gray("Add features (auth, firebase, ui)")}
+  ${chalk.cyan("kit firebase url <url>")}      ${chalk.gray("Configure Firebase URL")}
+  ${chalk.cyan("kit doctor")}                  ${chalk.gray("Auto-fix project & SDK issues")}
+  ${chalk.cyan("kit optimize")}                ${chalk.gray("Audit performance (assets, deps)")}
+  ${chalk.cyan("kit ai <prompt>")}             ${chalk.gray("Generate code with Gemini AI")}
+  ${chalk.cyan("kit set-key <key>")}           ${chalk.gray("Set Gemini API Key")}
+  ${chalk.cyan("kit check")}                   ${chalk.gray("Run health report")}
+  ${chalk.cyan("kit scaffold")}                ${chalk.gray("Create standard folder structure")}
+  ${chalk.cyan("kit status")}                  ${chalk.gray("Show CLI & Agent status")}
 `);
 }

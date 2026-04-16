@@ -1,10 +1,12 @@
 {
   "name": "@ibrahimmcx/proexpo-kit",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Pro Expo Developer CLI Tool (SDK 54 Optimized)",
   "main": "./bin/index.js",
   "bin": {
-    "kit": "bin/index.js"
+    "kit": "bin/index.js",
+    "proexpo-kit": "bin/index.js",
+    "create-proexpo-app": "bin/index.js"
   },
   "type": "module",
   "files": [
@@ -19,7 +21,13 @@
     "expo",
     "react-native",
     "tool",
-    "sdk54"
+    "sdk54",
+    "professional",
+    "mobile-architecture",
+    "firebase",
+    "supabase",
+    "auth-starter",
+    "template"
   ],
   "author": "İbrahimmcx",
   "license": "MIT",

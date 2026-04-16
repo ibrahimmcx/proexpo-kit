@@ -1,218 +1,94 @@
-# 🚀 Pro-Expo-Kit
+# ⚡ Create Expo Apps in Seconds
 
-![npm](https://img.shields.io/npm/v/@ibrahimmcx/proexpo-kit)
-![downloads](https://img.shields.io/npm/dw/@ibrahimmcx/proexpo-kit)
-![license](https://img.shields.io/npm/l/@ibrahimmcx/proexpo-kit)
+[![npm version](https://img.shields.io/npm/v/@ibrahimmcx/proexpo-kit)](https://www.npmjs.com/package/@ibrahimmcx/proexpo-kit)
+[![license](https://img.shields.io/npm/l/@ibrahimmcx/proexpo-kit)](https://github.com/ibrahimmcx/proexpo-kit/blob/main/LICENSE)
 
-> You don’t just create an Expo app.
-> You build it the **right way**.
+**The most powerful way to start Expo projects with professional architecture, pre-configured backends, and AI-driven development.**
 
 ---
 
-## 🎬 Demo
+## 🎬 See it in Action
 
 ![ProExpoKit Demo](./demo.gif)
-
----
-
-## 🧠 What is Pro-Expo-Kit?
-
-**Pro-Expo-Kit** is an AI-powered CLI that transforms your Expo workflow into a **production-ready system in minutes**.
-
-Built specifically for **Expo SDK 54**, it eliminates setup complexity and enforces **real-world best practices** from the very first command.
-
----
-
-## ⚡ Why Developers Love It
-
-* 🧠 Thinks like a senior developer
-* ⚙️ Creates production-ready architecture automatically
-* 💥 One command = full feature system
-* 👨‍⚕️ Detects & fixes problems instantly
-* 🤖 Generates real code using AI
-* 🚫 Fully **Reanimated-free architecture**
-
----
-
-## 🚀 Installation
-
-```bash
-npm install -g @ibrahimmcx/proexpo-kit
-```
+*(GIF showing 10-second project creation)*
 
 ---
 
 ## ⚡ Quick Start
 
+Launch your dream app with a single command:
+
 ```bash
-kit create myApp
-cd myApp
-npm start
+npx proexpo-kit init myApp
 ```
 
 ---
 
-## 🏗️ Smart Project Wizard
+## 🚀 Why Pro-Expo-Kit?
 
+Most starters just install packages. **Pro-Expo-Kit builds a production-ready system.**
+
+- **✨ High-Performance Architecture**: Clean, scalable folder structure out-of-the-box.
+- **🔥 Choice of Backend**: Instant configuration for **Firebase** or **Supabase**.
+- **🔐 Auth Ready**: Pre-injected Authentication context and screens.
+- **🤖 AI-First**: Integrated Gemini AI to generate SDK 54 compliant code.
+- **🎨 Premium UI**: Built-in support for Lucide icons and Moti animations.
+
+---
+
+## 🛠️ Commands
+
+### 🏗️ Project Setup
 ```bash
-kit create myApp
+kit init <name>       # Interactive premium setup
 ```
 
-✨ Interactive setup options:
-
-* SaaS App
-* AI App
-* Social App
-* E-commerce App
-
-👉 Automatically sets up:
-
-* Clean folder structure
-* Navigation system
-* Scalable architecture
-* Required dependencies
-
----
-
-## 💥 1 Command = Feature
-
+### ⚙️ Backend Configuration
 ```bash
-kit add auth
+kit firebase url <url> # Quickly set your config URL
 ```
 
-Instantly injects:
-
-* 🔐 Login & Register screens
-* 🧠 AuthContext + custom hooks
-* 🔑 Token management system
-* 🔄 Navigation integration
-* 💾 AsyncStorage setup
-
----
-
-## 👨‍⚕️ Doctor (Auto-Fix System)
-
+### 💊 Self-Healing & Audit
 ```bash
-kit doctor
+kit doctor            # Auto-fix SDK 54 & dependency issues
+kit optimize          # Audit performance and asset sizes
 ```
 
-✔️ Checks Expo SDK 54 compatibility
-✔️ Detects dependency issues
-✔️ Automatically fixes common errors
-✔️ Removes forbidden packages (Reanimated)
-
----
-
-## ⚡ Performance Optimization
-
+### 🧠 AI Intelligence
 ```bash
-kit optimize
+kit ai "login page"   # Generate code directly in your project
+kit set-key <key>     # Connect your Gemini API Key
 ```
 
-✔️ Detects large assets
-✔️ Finds unused dependencies
-✔️ Identifies performance bottlenecks
-
 ---
 
-## 🧠 AI Code Generation
+## 📂 The Pro Architecture
 
-```bash
-kit ai "modern login screen with dark theme"
+When you run `init`, you get more than a template. You get a **system**:
+
+```text
+myApp/
+├── src/
+│   ├── api/          # Network layer
+│   ├── components/   # Reusable UI
+│   ├── config/       # Firebase/Supabase setups
+│   ├── contexts/     # Auth & State
+│   ├── hooks/        # Custom logic
+│   ├── screens/      # Full pages
+│   └── theme/        # Global styles
+└── .agent/           # AI Architecture memory
 ```
 
-✔️ Generates SDK 54 compliant code
-✔️ Follows Pro-Expo architecture
-✔️ Writes directly into your project
-
 ---
 
-## 🏥 Advanced Health Check
+## 🎯 Our Philosophy
 
-```bash
-kit check
-```
+> "Developers shouldn't waste time on configuration. They should focus on building products."
 
-✔️ Node.js compatibility
-✔️ SDK 54 validation
-✔️ Project structure verification
-
----
-
-## 📂 Project Scaffolding
-
-```bash
-kit scaffold
-```
-
-✔️ Creates professional folder structure
-✔️ Applies best practices instantly
-
----
-
-## 🏷️ Smart Knowledge Archive
-
-```bash
-kit archive "Fix Navigation Bug" "Solution details..."
-```
-
-✔️ Save reusable solutions
-✔️ Build your own developer knowledge base
-
----
-
-## 🔐 API Key Setup
-
-```bash
-kit set-key YOUR_API_KEY
-```
-
-✔️ Secure AI integration
-✔️ Ready-to-use Gemini support
-
----
-
-## 🧱 Built With Real-World Standards
-
-* Clean Architecture
-* Custom Hooks Pattern
-* API Layer Separation
-* Theme System
-* Scalable Folder Structure
-
----
-
-## 🎯 Philosophy
-
-> Developers shouldn’t waste time fixing setup issues.
-> They should focus on building real products.
-
----
-
-## 🔥 What Makes It Different?
-
-Most tools:
-
-* Create a project ❌
-* Install a few packages ❌
-
-**Pro-Expo-Kit:**
-
-* Builds a real architecture ✅
-* Injects full features ✅
-* Fixes itself automatically ✅
-* Writes code for you ✅
-
----
-
-## 🚀 Vision
-
-Pro-Expo-Kit is not just a starter tool.
-
-It’s a **developer accelerator** designed to turn ideas into production-ready apps — faster than ever.
+Pro-Expo-Kit turns hours of setup into **seconds of excitement**.
 
 ---
 
 ## ⚖️ License
 
-MIT © ibrahimmcx
+MIT © [ibrahimmcx](https://github.com/ibrahimmcx)
